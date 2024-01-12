@@ -1,5 +1,5 @@
 {
-  "name": "llanomarkets",
+  "name": "Yaka",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -19,13 +19,12 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
-
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^10.0.0",
     "@nestjs/jwt": "^10.1.1",
-    "@nestjs/mapped-types": "*",
+    "@nestjs/mapped-types": "^2.0.4",
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/serve-static": "^4.0.0",

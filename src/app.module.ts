@@ -5,6 +5,11 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { UsersModule } from './users/users.module';
+import { ReviewsModule } from './reviews/reviews.module';
+import { TransactionsModule } from './transactions/transactions.module';
+import { OrdersModule } from './orders/orders.module';
+import { ProductsModule } from './products/products.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -26,6 +31,14 @@ import { UsersModule } from './users/users.module';
     }),
 
     UsersModule,
+
+    ProductsModule,
+
+    OrdersModule,
+
+    TransactionsModule,
+
+    ReviewsModule,
   ],
   controllers: [],
   providers: [],

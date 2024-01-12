@@ -17,8 +17,8 @@ async function bootstrap() {
     );
 
     const config = new DocumentBuilder()
-    .setTitle('llanomarkets') // nombre del proyecto
-    .setDescription('llanomarkets')
+    .setTitle('Yaka') // nombre del proyecto
+    .setDescription('Yaka')
     .setVersion('1.0')
     .addTag('cats')
     .build();
