@@ -5,4 +5,5 @@ export class reviews {
     @PrimaryGeneratedColumn('uuid')
     id: string;
     
+    
 }

@@ -5,7 +5,7 @@ import { documentType } from "../enums/documentType.enum";
 export class Users {
 
     @PrimaryGeneratedColumn('uuid')
-    userid: string;
+    userId: string;
 
     @Column('text', {
         unique: true,

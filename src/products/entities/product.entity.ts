@@ -8,7 +8,7 @@ export class Product {
     id: string;
 
     @ManyToOne(() => Users, (user) => user.username) // Relación con la tabla de usuarios
-    @JoinColumn({ name: 'sellerId' })
+    @JoinColumn({ name: 'sellerName' })
     sellerName: Users;
 
     @Column('text')
@@ -19,7 +19,7 @@ export class Product {
         enum: categories,
         default: categories.others, 
     })
-    documentType: categories;
+    categories: categories;
 
     @Column('text')
     name: string;
